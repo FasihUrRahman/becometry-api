@@ -1,0 +1,170 @@
+Status 404: Endpoint /v1/users/dccq64-opyj/usernameinfo/ does not exist
+
+🎯 Processing up to 221 profiles without Cloudinary images
+
+======================================================================
+Instagram HD Scraper - Missing Profiles Only
+======================================================================
+
+Debug: Fetched 221 profiles
+Debug: First profile: (72, 'Leandro Lopez', '/uploads/profile-images/instagram_leandrolopeztrader_1763729596037.jpg', 'https://www.instagram.com/leandrolopeztrader')
+📊 Found 221 profiles without Cloudinary images
+
+======================================================================
+
+[1/221] Leandro Lopez (ID: 72)
+   Username: @leandrolopeztrader
+   Fetching user info for @leandrolopeztrader...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[2/221] Jose Zabala (ID: 170)
+   Username: @josezabalaj
+   Fetching user info for @josezabalaj...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[3/221] Gabi Lupei (ID: 197)
+   Username: @DCcq64-OPYJ
+   Fetching user info for @DCcq64-OPYJ...
+   ❌ User not found or account private
+
+[4/221] Leo Horacio (ID: 209)
+   Username: @ecomcartel
+   Fetching user info for @ecomcartel...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[5/221] Ulissesworld (ID: 249)
+   Username: @ulissesworld
+   Fetching user info for @ulissesworld...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[6/221] Nick Trigili (ID: 347)
+   Username: @bodybuildingbs
+   Fetching user info for @bodybuildingbs...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[7/221] Kokoro (ID: 373)
+   Username: @yourkokorotoday
+   Fetching user info for @yourkokorotoday...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[8/221] Daniel Hong (ID: 412)
+   Username: @reels
+   Fetching user info for @reels...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[9/221] Ryan Daniel Moran (ID: 489)
+   Username: @ryandanielmoran
+   Fetching user info for @ryandanielmoran...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[10/221] Paweł Huryn (ID: 509)
+   ❌ Could not extract username
+
+[11/221] Kamran Zahid (ID: 639)
+   Username: @kamranzah1d
+   Fetching user info for @kamranzah1d...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[12/221] Andrew Tate (ID: 789)
+   Username: @cobratatealiveofficial
+   Fetching user info for @cobratatealiveofficial...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[13/221] Andrew Tate (ID: 789)
+   ❌ Could not extract username
+
+[14/221] Matt Wolfe (ID: 887)
+   Username: @mr.eflow
+   Fetching user info for @mr.eflow...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[15/221] Rowan Cheung (ID: 888)
+   Username: @rowancheung
+   Fetching user info for @rowancheung...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[16/221] Nick St. Pierre (ID: 889)
+   Username: @nick.floats
+   Fetching user info for @nick.floats...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[17/221] Nick St. Pierre (ID: 889)
+   ❌ Could not extract username
+
+[18/221] Rob Lennon (ID: 890)
+   Username: @thatroblennon
+   Fetching user info for @thatroblennon...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[19/221] Rob Lennon (ID: 890)
+   ❌ Could not extract username
+
+[20/221] Aakash Gupta (ID: 891)
+   Username: @aakashg0
+   Fetching user info for @aakashg0...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[21/221] Aakash Gupta (ID: 891)
+   ❌ Could not extract username
+
+[22/221] Nathan Lands (ID: 892)
+   Username: @nathanlands
+   Fetching user info for @nathanlands...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[23/221] Dan Fitzpatrick (ID: 893)
+   Username: @theaieducatorio
+   Fetching user info for @theaieducatorio...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[24/221] Rob Hope (ID: 894)
+   Username: @rob_hope
+   Fetching user info for @rob_hope...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[25/221] Colt Steele (ID: 895)
+   Username: @coltsteele
+   Fetching user info for @coltsteele...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[26/221] James Q Quick (ID: 897)
+   Username: @jamesqquick
+   Fetching user info for @jamesqquick...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[27/221] James Q Quick (ID: 897)
+   ❌ Could not extract username
+
+[28/221] Kunal Kushwaha (ID: 898)
+   Username: @kunalsig
+   Fetching user info for @kunalsig...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[29/221] Harrison Kinsley (ID: 899)
+   Username: @sentdex
+   Fetching user info for @sentdex...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[30/221] Harrison Kinsley (ID: 899)
+   ❌ Could not extract username
+
+[31/221] Jeff Delaney (Fireship) (ID: 900)
+   Username: @fireship_dev
+   Fetching user info for @fireship_dev...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[32/221] Jeff Delaney (Fireship) (ID: 900)
+   ❌ Could not extract username
+
+[33/221] Sabrina Ramonov (ID: 901)
+   Username: @sabrina_ramonov
+   Fetching user info for @sabrina_ramonov...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[34/221] Robert Benjamin (ID: 902)
+   Username: @reels
+   Fetching user info for @reels...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[35/221] Nate Gold (ID: 903)
+   Username: @nategold.ai

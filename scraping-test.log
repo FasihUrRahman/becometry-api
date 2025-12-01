@@ -1,0 +1,50 @@
+
+🎯 Processing up to 5 profiles without Cloudinary images
+
+======================================================================
+Instagram HD Scraper - Missing Profiles Only
+======================================================================
+
+Debug: Fetched 5 profiles
+Debug: First profile: (72, 'Leandro Lopez', '/uploads/profile-images/instagram_leandrolopeztrader_1763729596037.jpg', 'https://www.instagram.com/leandrolopeztrader')
+📊 Found 5 profiles without Cloudinary images
+
+======================================================================
+
+[1/5] Leandro Lopez (ID: 72)
+   Username: @leandrolopeztrader
+   Fetching user info for @leandrolopeztrader...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[2/5] Jose Zabala (ID: 170)
+   Username: @josezabalaj
+   Fetching user info for @josezabalaj...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[3/5] Gabi Lupei (ID: 197)
+   Username: @DCcq64-OPYJ
+   Fetching user info for @DCcq64-OPYJ...
+Status 404: Endpoint /v1/users/dccq64-opyj/usernameinfo/ does not exist
+   ❌ User not found or account private
+
+[4/5] Leo Horacio (ID: 209)
+   Username: @ecomcartel
+   Fetching user info for @ecomcartel...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+[5/5] Ulissesworld (ID: 249)
+   Username: @ulissesworld
+   Fetching user info for @ulissesworld...
+   ❌ Error getting profile: feedback_required: We limit how often you can do certain things on Instagram to protect our community. Tell us if you think we made a mistake.
+
+======================================================================
+SUMMARY
+======================================================================
+Total Profiles:              5
+✅ Successfully Uploaded:     0
+⚠️  Challenge Required:        0
+❌ Failed:                    5
+📈 Success Rate:              0.0%
+======================================================================
+
+✅ Completed!

@@ -1,0 +1,39 @@
+
+🎯 Processing up to 3 profiles without Cloudinary images
+
+======================================================================
+Instagram HD Scraper - Missing Profiles Only
+======================================================================
+
+Debug: Fetched 3 profiles
+Debug: First profile: (72, 'Leandro Lopez', '/uploads/profile-images/instagram_leandrolopeztrader_1763729596037.jpg', 'https://www.instagram.com/leandrolopeztrader')
+📊 Found 3 profiles without Cloudinary images
+
+======================================================================
+
+[1/3] Leandro Lopez (ID: 72)
+   Username: @leandrolopeztrader
+   Fetching user info for @leandrolopeztrader...
+   ❌ Error getting profile: SSLError HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/leandrolopeztrader/usernameinfo/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')))
+
+[2/3] Jose Zabala (ID: 170)
+   Username: @josezabalaj
+   Fetching user info for @josezabalaj...
+   ❌ Error getting profile: SSLError HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/josezabalaj/usernameinfo/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')))
+
+[3/3] Gabi Lupei (ID: 197)
+   Username: @DCcq64-OPYJ
+   Fetching user info for @DCcq64-OPYJ...
+   ❌ Error getting profile: SSLError HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/users/dccq64-opyj/usernameinfo/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)')))
+
+======================================================================
+SUMMARY
+======================================================================
+Total Profiles:              3
+✅ Successfully Uploaded:     0
+⚠️  Challenge Required:        0
+❌ Failed:                    3
+📈 Success Rate:              0.0%
+======================================================================
+
+✅ Completed!
