@@ -7,6 +7,10 @@ const pool = new Pool({
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
+  // Connection pool settings for Supabase
+  max: 10, // Maximum number of clients in the pool
+  idleTimeoutMillis: 30000, // Close idle clients after 30 seconds
+  connectionTimeoutMillis: 10000, // Return error after 10 seconds if connection cannot be established
 });
 
 pool.on('connect', () => {
@@ -14,8 +18,9 @@ pool.on('connect', () => {
 });
 
 pool.on('error', (err) => {
-  console.error('❌ Unexpected database error:', err);
-  process.exit(-1);
+  // Log the error but don't crash the server
+  // The pool will automatically try to reconnect
+  console.error('⚠️  Database connection error (will retry):', err.message);
 });
 
 module.exports = pool;
