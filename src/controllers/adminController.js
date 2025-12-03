@@ -178,7 +178,7 @@ const adminController = {
       }
 
       query += `
-        ORDER BY p.created_at DESC
+        ORDER BY p.updated_at DESC
         LIMIT $${++paramCount} OFFSET $${++paramCount}
       `;
 
