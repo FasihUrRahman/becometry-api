@@ -70,6 +70,50 @@ class CloudinaryService {
   }
 
   /**
+   * Upload image from buffer (for serverless environments like Vercel)
+   */
+  async uploadFromBuffer(buffer, options = {}) {
+    try {
+      return new Promise((resolve, reject) => {
+        const uploadStream = cloudinary.uploader.upload_stream(
+          {
+            folder: 'becometry/profile-images',
+            resource_type: 'image',
+            transformation: [
+              { width: 500, height: 500, crop: 'fill', gravity: 'face' },
+              { quality: 'auto:best' }
+            ],
+            ...options
+          },
+          (error, result) => {
+            if (error) {
+              console.error('Cloudinary upload error:', error.message);
+              resolve({
+                success: false,
+                error: error.message
+              });
+            } else {
+              resolve({
+                success: true,
+                url: result.secure_url,
+                public_id: result.public_id
+              });
+            }
+          }
+        );
+
+        uploadStream.end(buffer);
+      });
+    } catch (error) {
+      console.error('Cloudinary upload error:', error.message);
+      return {
+        success: false,
+        error: error.message
+      };
+    }
+  }
+
+  /**
    * Download image temporarily and upload to Cloudinary
    */
   async downloadAndUpload(imageUrl, username) {

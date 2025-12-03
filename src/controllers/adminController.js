@@ -982,13 +982,11 @@ const adminController = {
       }
 
       const cloudinaryService = require('../services/cloudinaryService');
-      const result = await cloudinaryService.uploadFromFile(req.file.path, {
+
+      // Use buffer upload for Vercel compatibility (no file system access)
+      const result = await cloudinaryService.uploadFromBuffer(req.file.buffer, {
         public_id: `profile_${Date.now()}`
       });
-
-      // Clean up uploaded file
-      const fs = require('fs');
-      fs.unlinkSync(req.file.path);
 
       if (result.success) {
         res.json({

@@ -31,19 +31,9 @@ const upload = multer({
   }
 });
 
-// Configure multer for image upload
-const imageStorage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, 'uploads/images/');
-  },
-  filename: (req, file, cb) => {
-    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-    cb(null, 'profile-' + uniqueSuffix + path.extname(file.originalname));
-  }
-});
-
+// Configure multer for image upload (use memory storage for Vercel compatibility)
 const imageUpload = multer({
-  storage: imageStorage,
+  storage: multer.memoryStorage(), // Store in memory instead of disk
   fileFilter: (req, file, cb) => {
     const allowedTypes = /jpeg|jpg|png|gif|webp/;
     const extname = allowedTypes.test(path.extname(file.originalname).toLowerCase());
